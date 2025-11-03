@@ -1,3 +1,12 @@
+# Fork von Doctronic für XONG
+
+Dies ist ein Fork von `@kesha-antonov/react-native-background-downloader` auf Github, der "master"-Branch ist unverändert.
+
+Der neue Branch "android-16k-pages" zweigt beim Originalrelease 3.2.6 (Commit 11.01.2025, "ffca4f8") ab und enthält genau eine relevante Änderung: in der `android/build.gradle` wird nun "com.tencent:mmkv:1.3.14" verwendet (statt "1.3.12"). Dieses unterstützt dann die von Google geforderten 16k Pages, siehe: <https://github.com/Tencent/MMKV/releases/tag/v1.3.14>.
+
+---
+---
+
 ![react-native-background-downloader banner](https://d1w2zhnqcy4l8f.cloudfront.net/content/falcon/production/projects/V5EEOX_fast/RNBD-190702083358.png)
 
 [![npm version](https://badge.fury.io/js/@kesha-antonov%2Freact-native-background-downloader.svg)](https://badge.fury.io/js/@kesha-antonov%2Freact-native-background-downloader)
